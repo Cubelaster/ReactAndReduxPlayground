@@ -2,5 +2,7 @@
   "window.zoomLevel": 0,
   "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe",
   "prettier.arrowParens": "always",
-  "editor.formatOnSave": true
+  "prettier.eslintIntegration": true,
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true
 }
