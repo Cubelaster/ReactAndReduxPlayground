@@ -1,15 +1,18 @@
 {
-    "version": "2.0.0",
-    "tasks": [
-        {
-            "label": "build",
-            "command": "dotnet",
-            "type": "process",
-            "args": [
-                "build",
-                "${workspaceFolder}/ReactAndReduxPlayground.csproj"
-            ],
-            "problemMatcher": "$msCompile"
-        }
-    ]
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "build",
+      "command": "dotnet",
+      "type": "process",
+      "args": ["build", "${workspaceFolder}/ReactAndReduxPlayground.csproj"],
+      "problemMatcher": "$msCompile"
+    },
+    {
+      "label": "dotnet Run",
+      "command": "dotnet",
+      "type": "process",
+      "args": ["run", "--launch-profile ReactAndReduxPlayground"]
+    }
+  ]
 }
